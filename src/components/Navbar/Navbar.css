@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Risque&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    font-family: 'Righteous', sans-serif !important;
+    list-style: none;
+    margin: 0 !important;
+}
+
+body {
+    overflow-wrap: hidden !important;
+}
+
+.header {
+    background: rgba(147, 193, 212, 0.46);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 15px !important;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #011662;
+    font-weight: 700 !important;
+}
+
+.dropdown-menu {
+    background: rgba(147, 192, 212, 0.634);
+    border: none !important;
+    margin: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.btn {
+    width: 198px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: linear-gradient(90deg,
+            #7bb2ca 14.47%,
+            rgba(5, 32, 86, 0.7) 55.11%,
+            #7bb2ca 99.91%) !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none !important;
+}
+
+.profile_image img {
+    width: 60px !important;
+    height: 60px !important;
+    flex-shrink: 0 !important;
+    margin: 0.4rem !important;
+}
+
+.logo {
+    color: #011662;
+    font-family: Risque !important;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.294);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 2.1rem !important;
+}
+
